@@ -1,0 +1,6 @@
+.chatlist {
+  background-color: rgba(66, 66, 66, 0.404);
+  height: 75vh;
+  width: 35%;
+  display: inline-block;
+}

@@ -1,0 +1,53 @@
+.chatroom {
+  background-color: rgba(66, 66, 66, 0.404);
+  height: 75vh;
+  width: 63%;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.chat {
+  height: 67vh;
+  width: 100%;
+}
+
+.InputItems {
+  display: flex;
+
+  /* justify-content: space-around; */
+}
+.inputItem {
+  flex-grow: 3;
+}
+input {
+  background-color: rgba(66, 66, 66, 0.404);
+  width: 100%;
+}
+.divitem {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+button {
+  background-color: rgba(66, 66, 66, 0.404);
+  color: blue;
+  border: none;
+}
+.chatting {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.item-container {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 10px;
+  color: rgb(224, 215, 215);
+  background-color: rgba(66, 66, 66, 0.404);
+}
+/* .user-item {
+  align-self: flex-start;
+} */
+.admin {
+  align-self: flex-end;
+}

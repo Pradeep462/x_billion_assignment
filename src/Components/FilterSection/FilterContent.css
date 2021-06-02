@@ -1,0 +1,20 @@
+.contentholder {
+  background-color: rgba(66, 66, 66, 0.404);
+  height: 16vh;
+  width: 98%;
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.filterholder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.applybtn {
+  color: whitesmoke;
+  position: absolute;
+  left: 92%;
+  top: 18%;
+}
